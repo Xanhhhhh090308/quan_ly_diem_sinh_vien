@@ -51,7 +51,4 @@ plt.grid(axis='y', linestyle='--', alpha=0.7)
 plt.show()
 st.write("---")
 st.markdown(
-    "<p style='text-align: center; color: gray; font-size: 12px;'>"
-    "Người tạo: Đỗ Xuân Anh - MSSV: 034208005068 </p>",
-    unsafe_allow_html=True,
-)
+    
