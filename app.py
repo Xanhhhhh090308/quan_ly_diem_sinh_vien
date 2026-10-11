@@ -1,6 +1,7 @@
 #1 tạo data Frame
 import pandas as pd
 import matplotlib.pyplot as plt
+from IPython.display import HTML
 
 data = {
     'Ho_ten' : [ 'Tuyền', 'Linh', 'Anh', 'Tâm', 'Phương', 'Hương', 'Tuấn', 'Khang', 'Đại', 'Hưng' ],
@@ -49,6 +50,7 @@ plt.title('Biểu đồ Điểm Tổng Kết của Sinh Viên')
 plt.ylim(0, 10)
 plt.grid(axis='y', linestyle='--', alpha=0.7)
 plt.show()
-st.write("---")
-st.markdown(
-    
+
+# Hiển thị thông tin người tạo bằng HTML của IPython
+display(HTML("<hr>"))
+display(HTML("<p style='text-align: center; color: gray; font-size: 14px; font-weight: bold;'>Người tạo: Đỗ Xuân Anh - MSSV: 034208005068</p>"))
